@@ -61,10 +61,7 @@ export class DocumentScannerComponent implements OnInit {
           autoDetect: {
             enableAutoDetect: true
           },
-          continuousScan: {
-            visibility: false,
-            enableContinuousScan: false
-          }
+          continuousScan: false
         }
 
       }).then(
