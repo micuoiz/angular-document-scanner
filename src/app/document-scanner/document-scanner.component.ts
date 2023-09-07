@@ -16,7 +16,7 @@ export class DocumentScannerComponent implements OnInit {
 
   ngOnInit(): void {
     this.videoSelect = document.querySelector('select#videoSource') as HTMLSelectElement;
-    Dynamsoft.DWT.ProductKey = "t0153KQMAAFzm97BAzFmaAN4P0OR9yW5t3IVDsP3gB0b4t/AA8J6ag3Erbn93uHLYhLObvZuJHuLXdkfKbHa33K+nlM8z7sMb0tgwHIPNhB6V6pQ6w6d5mZFmcFPnb+ytO/PGeTGo0xmeMBIb68/YuJl/PWQ/c294wkhs3Myd8fusuf7jR0B7y0wjwxNGYtMyX826Fkoq+AIDc56i";
+    Dynamsoft.DWT.ProductKey = "t01679QMAAGCkngoS+fTchR/4UD0wgtrL8WrF4mlMVI0BY8Bu4aCrXKZB1jgfLud/uRfZ+cknD1hTEf28vCBLAgfa1s2ugFkXRnxD2TeMgYEWkdeSXUJn+AXmAqQC9JE9KH85gHvcvo4KHWAPiAPEmwN5YLCKbFsUHpZf6ipoCNgD8gFQO69tMNqWHcc6P0VsjXcxbPIfmnJ+sx7VmU3+oamCW0qRnkEVy18=";
     Dynamsoft.DWT.ResourcesPath = 'assets/dynamic-web-twain';
     Dynamsoft.DWT.Containers = [{ ContainerId: 'dwtcontrolContainer' }];
     Dynamsoft.DWT.UseLocalService = false;
